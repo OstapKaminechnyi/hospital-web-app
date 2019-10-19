@@ -1,0 +1,33 @@
+#head {
+  padding: 10px;
+}
+
+body {
+  font-family: Arial;
+}
+
+#menu {
+  border: 5px solid #111111;
+  float: left;
+  width: 225px;
+  padding: 5px;
+  margin: 15px 5px 5px 5px;
+}
+#menu div {
+  height: 100%;
+  padding: 2px;
+}
+#menu a {
+  display: block;
+  padding: 2px;
+  margin: 1px;
+  font-size: 0.75em;
+  overflow: scroll;
+}
+
+#content {
+  margin: 10px 10px 20px 225px;
+  padding: 5px;
+}
+
+

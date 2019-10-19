@@ -1,0 +1,58 @@
+<div *ngIf="selectedPatient">
+  <nav>
+    <div class="nav-wrapper">
+      <ul id="navbar">
+        <li>
+          <h5>{{selectedPatient.firstName}} {{selectedPatient.lastName}} </h5>
+        </li>
+        <li>{{age}} years old</li>
+        <li class="right">
+          <button class="black btn" style="margin-bottom:5px;" (click)="deletePatient(selectedPatient)">DELETE
+          </button>
+        </li>
+        <li class="right"><a routerLink="/edit-patient/{{selectedPatient.id}}">EDIT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="information">
+    <ul>
+      <li>
+        <span>Date of birth: </span>
+        {{selectedPatient.dateOfBirth.toString()}}
+      </li>
+      <li>
+        <span>Sex: </span>
+        {{selectedPatient.sex}}
+      </li>
+      <li>
+        <span>Country: </span>
+        <span>{{selectedPatient.country}}</span>
+      </li>
+      <li>
+        <span>State: </span>
+        {{selectedPatient.state}}
+      </li>
+      <li>
+        <span>Address: </span>
+        {{selectedPatient.address}}
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div *ngIf="comments" class="comments">
+  <ul>
+    <h5 class="text">Comments:</h5>
+    <li *ngFor="let comment of comments">
+      <i>{{comment.dateOfWriting | date}}</i>
+      <p>{{comment.comment}}</p>
+    </li>
+  </ul>
+  <div class="new-comment">
+    <input style="width: 650px; margin-right: 13px" [(ngModel)]="createdComment.comment" placeholder="Comment"
+      name="comment" class="form-control" id="comment">
+    <button (click)="createComment()" class="btn black">+</button>
+  </div>
+
+</div>

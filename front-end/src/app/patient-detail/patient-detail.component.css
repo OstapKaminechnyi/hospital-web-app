@@ -1,0 +1,40 @@
+.nav-wrapper {
+  background-color: black;
+}
+
+li {
+  margin-left: 30px;
+  margin-right: 50px;
+}
+.information {
+  float:left; 
+  margin-left: 15px;
+}
+.text {
+  margin-left: 3.5px;
+}
+p {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+.comments {
+  border: 5px black solid;
+  margin-right: 20px;
+  margin-top: 10px;
+  height: 400px;
+  width: 750px;
+  overflow: auto;
+  background-color:grey;
+  float:right;
+}
+
+.new-comment {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+
+

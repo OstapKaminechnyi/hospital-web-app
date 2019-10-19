@@ -1,0 +1,32 @@
+<div *ngIf="updatedPatient">
+  <p>
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" [(ngModel)]="updatedPatient.firstName">
+  </p>
+  <p>
+    <label for="lastName">Last Name</label>
+    <input type="text" id="lastName" [(ngModel)]="updatedPatient.lastName">
+  </p>
+
+  <p>
+    <label for="dateOfBirth">Date of Birth</label>
+    <input type="date" id="dateOfBirth" [(ngModel)]="updatedPatient.dateOfBirth">
+  </p>
+  <p>
+    <label for="sex">Sex</label>
+    <input type="text" id="sex" [(ngModel)]="updatedPatient.sex">
+  </p>
+  <p>
+    <label for="country">Country</label>
+    <input type="text" id="country" [(ngModel)]="updatedPatient.country">
+  </p>
+  <p>
+    <label for="state">State</label>
+    <input type="text" id="state" [(ngModel)]="updatedPatient.state">
+  </p>
+  <p>
+    <label for="address">Address</label>
+    <input type="text" id="address" [(ngModel)]="updatedPatient.address">
+  </p>
+  <button class="btn black" (click)="updatePatient(updatedPatient)">Edit</button>
+</div>
