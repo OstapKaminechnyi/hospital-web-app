@@ -19,7 +19,7 @@ export class PatientService {
   }
 
   public deletePatient(patient) {
-    return this.http.delete(this.baseUrl + '/' + patient.id+ '/');
+    return this.http.delete(this.baseUrl + patient.id+ '/');
   }
 
   public createPatient(patient) {
@@ -27,15 +27,15 @@ export class PatientService {
   }
 
   public getPatientСomments(id) {
-    return this.http.get<Comment[]>(this.baseUrl + '/' + id + '/comments/');
+    return this.http.get<Comment[]>(this.baseUrl + id + '/comments/');
   }
 
   updatePatient(patient) {
-    return this.http.put(this.baseUrl + '/' + patient.id + '/', patient);
+    return this.http.put(this.baseUrl + patient.id + '/', patient);
   }
 
   getPatient(id: number) {
-    return this.http.get<Patient>(this.baseUrl + '/' + id + '/');
+    return this.http.get<Patient>(this.baseUrl + id + '/');
   }
 
   searchPatient(term: string): Observable<Patient[]> {
