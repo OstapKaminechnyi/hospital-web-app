@@ -11,7 +11,7 @@ import java.util.List;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
-@RequestMapping({"patients/{patientId}/comments"})
+@RequestMapping({"patient/{patientId}/comments/"})
 public class CommentController {
 
     @Autowired
@@ -24,7 +24,7 @@ public class CommentController {
         return commentService.createComment(comment);
     }
 
-    @DeleteMapping(path = {"/{id}"})
+    @DeleteMapping(path = {"/{id}/"})
     public Comment deleteComment(@PathVariable("id") int id) {
         return commentService.deleteComment(id);
     }
@@ -34,13 +34,13 @@ public class CommentController {
         return commentService.findCommentByPatient_Id(patientId);
     }
 
-    @GetMapping(path = {"/{id}"})
+    @GetMapping(path = {"/{id}/"})
     public Comment findByCommentId(@PathVariable("id") int id, @PathVariable("patientId") int patientId) {
         return commentService.findByIdAndPatient_Id(id, patientId);
     }
 
 
-    @GetMapping(path = {"/all"})
+    @GetMapping(path = {"/all/"})
     public List<Comment> findAll() {
         return commentService.findAll();
     }

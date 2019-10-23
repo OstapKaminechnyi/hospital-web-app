@@ -10,7 +10,7 @@ import java.util.List;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
-@RequestMapping({"/patients"})
+@RequestMapping({"/patient/"})
 public class PatientController {
 
     @Autowired
@@ -21,23 +21,23 @@ public class PatientController {
         return patientService.createPatient(patient);
     }
 
-    @PutMapping(path = {"/{id}"})
+    @PutMapping(path = {"/{id}/"})
     public Patient updatePatient(@PathVariable("id") int id, @RequestBody Patient patient) {
         patient.setId(id);
         return patientService.updatePatient(patient);
     }
 
-    @DeleteMapping(path = {"/{id}"})
+    @DeleteMapping(path = {"/{id}/"})
     public Patient deletePatient(@PathVariable("id") int id) {
         return patientService.deletePatient(id);
     }
 
-    @GetMapping(path = {"/{id}"})
+    @GetMapping(path = {"/{id}/"})
     public Patient findById(@PathVariable("id") int id) {
         return patientService.findById(id);
     }
 
-    @GetMapping(path = {"/search/{name}"})
+    @GetMapping(path = {"/search/{name}/"})
     public List<Patient> findAllByFirstNameOrLastName(@PathVariable("name") String request) {
         return patientService.findAllByFirstNameOrLastName(request, request);
     }
