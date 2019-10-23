@@ -9,8 +9,8 @@ import { CreatePatientComponent } from './create-patient/create-patient.componen
 const routes: Routes = [
   {path: '', redirectTo: '/patient/1/', pathMatch: 'full'},
   {path: 'patient/:id/', component: PatientDetailComponent},
-  {path: 'patients/', component: PatientListComponent},
-  {path: 'create-patient/', component: CreatePatientComponent},
+  {path: 'patients', component: PatientListComponent},
+  {path: 'create-patient', component: CreatePatientComponent},
   {path: 'edit-patient/:id/', component: EditPatientComponent}
 ];
 
