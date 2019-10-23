@@ -12,7 +12,7 @@ export class PatientService {
   constructor(private http: HttpClient) {
   }
 
-  private baseUrl = 'http://localhost:8080/patient/';
+  private baseUrl = '/';
 
   public getPatients() {
     return this.http.get<Patient[]>(this.baseUrl);

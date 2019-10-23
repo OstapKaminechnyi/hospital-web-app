@@ -11,13 +11,12 @@ export class CommentService {
   constructor(private http: HttpClient) {
   }
 
-  private baseUrl = 'http://localhost:8080/';
 
   public getComments() {
-    return this.http.get<Comment[]>(this.baseUrl);
+    return this.http.get<Comment[]>('/');
   }
 
   public createComment(comment,patientId) {
-    return this.http.post<Comment>(this.baseUrl + 'patient/' + patientId + "/comments/", comment );
+    return this.http.post<Comment>("/" + 'patient/' + patientId + "/comments/", comment );
   }
 }
