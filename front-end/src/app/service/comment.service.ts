@@ -18,6 +18,6 @@ export class CommentService {
   }
 
   public createComment(comment,patientId) {
-    return this.http.post<Comment>(this.baseUrl + 'patients/' + patientId + "/comments/", comment);
+    return this.http.post<Comment>(this.baseUrl + 'patient/' + patientId + "/comments/", comment );
   }
 }

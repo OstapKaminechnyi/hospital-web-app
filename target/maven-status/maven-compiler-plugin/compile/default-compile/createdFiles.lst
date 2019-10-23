@@ -1,0 +1,12 @@
+com\ostapkmn\hospital\controller\CommentController.class
+com\ostapkmn\hospital\service\PatientService.class
+SimpleCORSFilter.class
+com\ostapkmn\hospital\model\Patient.class
+com\ostapkmn\hospital\controller\PatientController.class
+com\ostapkmn\hospital\service\impl\CommentServiceImpl.class
+com\ostapkmn\hospital\model\Comment.class
+com\ostapkmn\hospital\HospitalApplication.class
+com\ostapkmn\hospital\service\impl\PatientServiceImpl.class
+com\ostapkmn\hospital\service\CommentService.class
+com\ostapkmn\hospital\repository\CommentRepository.class
+com\ostapkmn\hospital\repository\PatientRepository.class
