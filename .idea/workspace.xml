@@ -2,77 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4c8c4c-6ef7-4a8d-82eb-26b831b9602c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/709401b6-4e5d-452b-b38d-feb151f16ab0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1212.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/HospitalApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/controller/CommentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/controller/PatientController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/model/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/model/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/repository/CommentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/repository/PatientRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/service/CommentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/service/PatientService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/service/impl/CommentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/ostapkmn/hospital/service/impl/PatientServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/service/comment.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/service/comment.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/service/patient.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/service/patient.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hospital.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SimpleCORSFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ostapkmn/hospital/HospitalApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ostapkmn/hospital/HospitalApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ostapkmn/hospital/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ostapkmn/hospital/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ostapkmn/hospital/controller/PatientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ostapkmn/hospital/controller/PatientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/3rdpartylicenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/main-es2015.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/main-es2015.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/main-es5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/main-es5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/polyfills-es2015.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/polyfills-es2015.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/polyfills-es5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/polyfills-es5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/runtime-es2015.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/runtime-es2015.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/runtime-es5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/runtime-es5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/styles-es2015.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/styles-es2015.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/styles-es5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/styles-es5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/vendor-es2015.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/vendor-es2015.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/vendor-es5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hospital-web-app/vendor-es5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/main-es2015.c25b0ffc5542b9d37f45.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/main-es5.c25b0ffc5542b9d37f45.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/polyfills-es2015.adf340b4c6b6df213373.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/polyfills-es5.7ed72676f6b1888ca856.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/runtime-es2015.b948044840398824f16e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/runtime-es5.b948044840398824f16e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles.3ff695c00d717f2d2a11.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hospital-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/hospital-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,18 +26,41 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ostapkmn/hospital/controller/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1503#1504#0" expanded="true" />
+                <element signature="e#1550#1551#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -115,8 +68,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ostapkmn/hospital/controller/PatientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="85">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+              <folding>
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,8 +97,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ostapkmn/hospital/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ostapkmn/hospital/controller/PatientController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ostapkmn/hospital/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -204,6 +169,27 @@
               <item name="hospital" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hospital-web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hospital-web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hospital-web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hospital-web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hospital-web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hospital-web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -250,17 +236,17 @@
       <option name="presentableId" value="Default" />
       <updated>1571817615332</updated>
       <workItem from="1571817624772" duration="590000" />
-      <workItem from="1571818386764" duration="484000" />
+      <workItem from="1571818386764" duration="986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1074000" />
+    <option name="totallyTimeSpent" value="1576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -275,7 +261,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -296,20 +282,47 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ostapkmn/hospital/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ostapkmn/hospital/controller/PatientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="85">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
