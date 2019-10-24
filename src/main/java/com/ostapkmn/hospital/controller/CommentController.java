@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Date;
 import java.util.List;
 
+@CrossOrigin(origins = "https://hospital-web-app.herokuapp.com", maxAge = 3600)
 @RestController
 @RequestMapping({"patient/{patientId}/comments/"})
 public class CommentController {

@@ -1,6 +1,6 @@
 {
     "/": {
-        "target" : "http://localhost:8080/patient",
+        "target" : "http://localhost:8080/api",
         "secure" : false
     }
 }
