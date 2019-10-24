@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://hospital-web-app.herokuapp.com")
 @RestController
 @RequestMapping({"/patient/"})
 public class PatientController {
